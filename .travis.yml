@@ -1,0 +1,27 @@
+language: ruby
+rvm:
+- 2.2.3
+
+install:
+- "./bin/setup"
+
+script:
+- bundle exec jekyll build --trace
+# Example for htmlproofer: don't forget to add the production url to the ignore path, in case you need it
+# - bundle exec htmlproofer ./_site --only-4xx --http-status-ignore "403" --url-ignore "#,/https:\/\/www\.youtube\.com\/.*/,/http:\/\/www\.youtube\.com\/.*/,/http:\/\/www\.artist\.bio\/.*/"
+
+after_success:
+- "./bin/deploy"
+
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - USERNAME: username
+  - EMAIL: your-email@your-domain.com
+  - secure: XXXX
+
+# Slack, flowdock, … notifications.
+notifications:
+#  flowdock: XXXX
+#   email:
+#    - true@factsandfictions.net
