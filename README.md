@@ -10,18 +10,44 @@ The application backend is [Jekyll](http://jekyllrb.com/), an application writte
 
 Frontend tools used include LESS over Bootstrap for the styles, [Bower](http://bower.io/) for the javascript dependencies and [Grunt](http://gruntjs.com/) for the tasks.
 
-The testing and deployment of changes is made throught [Travis](http://travis-ci.org/) with our own recipe.
+The testing and deployment of changes is made throught [Travis](http://travis-ci.org/) with our own recipe. 
 
-The site is currently hosted in [Hetzner](https://www.hetzner.de/) and their datacenter are located in Nuremberg and in Falkenstein/Vogtland.
+The site can be hosted in any server that provides ftp access, since it's using [glynn](https://rubygems.org/gems/glynn/versions/1.2.3) project to deploy.
+
+## Instalación
+
+### Dependencias
+
+- Ruby y Bundle
+- Bower
+- Node y Grunt
+
+### Comando de instalación
+
+> $ sh bin/setup
+
+### Desarrollo
+
+> grunt --help
+> 
+> grunt build
+> 
+> grunt theming
+
+
+### Development variables
+
+Use this variables to take advantadge of livereload.
+
+> export JEKYLL_ENV=development
 
 ## ¿Cómo gestionar el contenido del sitio web?
-
-@todo 
 
 - media
 - _data
 - _includes
 - _works
+- _pages
 
 ### 01. Carpeta 'media'
 
@@ -41,7 +67,7 @@ En la carpeta '_data' se encuentran una serie de ficheros de tipo YML que nos pe
 
 #### Parametros de la sección Bio
 
-Encontrarás una serie de ficheros para gestionar los contenidos de la [sección Bio](http://www.christinaschultz.com/bio) del sitio web.
+Encontrarás una serie de ficheros para gestionar los contenidos de la [sección Bio](http://artist.bio/bio) del sitio web.
 
 - Awards, Grants & Residencies
 - Performatic talks, Presentations & Conferences
@@ -54,14 +80,13 @@ Encontrarás una serie de ficheros para gestionar los contenidos de la [sección
 
 #### Parametros de la sección About
 
-Encontrarás una serie de ficheros para gestionar los contenidos de la [sección About](http://www.christinaschultz.com/about) del sitio web.
+Encontrarás una serie de ficheros para gestionar los contenidos de la [sección About](http://artist.bio/about) del sitio web.
 
 - Publications & Catalogs
 - Interviews & Articles
 - More Press
 
-
-### 03. Carpeta '_includes'
+### 03. Carpeta '_includes'  
 
 ##### ¿Cómo cambiamos el texto del statement y de la bio?
 
@@ -72,31 +97,5 @@ Concretamente en la carpeta _includes/
 Puedes usar un editor de Markdown para cambiar el contenido de estos textos.
 
 
-
-## Instalación
-
-### Dependencias
-
-- Ruby y Bundle
-- Bower
-- Grunt
-
-
-sh bin/setup
-
-Then 
-
-> grunt --help
-> 
-> grunt build
-> 
-> grunt theming
-
-
-## Development varibles
-
-Use this variables to take advantadge of livereload.
-
-> export JEKYLL_ENV=development
 
 

@@ -1,13 +1,13 @@
 @charset "utf-8";
 
-@color-primary:       #ed1c24;
+@color-primary:       #ff0000;
 
 // Color variables 
-@body-color:          #f9f9f9; 
-@text-color:          #3e3e3e; 
-@link-color:          #000000; 
+@body-color:          #efefef; 
+@text-color:          #111111; 
+@link-color:          #333333; 
 @link-color-hover:    @color-primary; 
-@link-color-visited:  #dedede; 
+@link-color-visited:  #0052ff; 
 
 @nav-color:        #ffffff; 
 @nav-border-color: @link-color-visited; // #dedede
@@ -15,10 +15,10 @@
 @footer-color:     #ffffff;
 
 // Font variables
-@body-font:           Georgia, Times, "Times New Roman", serif;
+@body-font:           "Times New Roman", serif;
 @headlines-font:      Georgia, Times, "Times New Roman", serif;
 @subheadlines-font:   "montserrat", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-@helvetica-font:      "Helvetica Neue",Helvetica,Arial,Sans-serif;
+@helvetica-font:      Arial,Sans-serif;
 @button-font:         @subheadlines-font;
 
 @screen-xs: 480px;
@@ -30,10 +30,7 @@
 // This is shite with the curren less compiler we're using
 @import 'partials/_fonts.less';
 @import 'partials/_base.less';
-@import 'partials/_layout.less';
 @import 'partials/_footer.less';
-@import 'partials/_navigation.less';
-@import 'partials/_buttons.less';
 @import 'partials/_home.less';
 @import 'partials/_works.less';
 
