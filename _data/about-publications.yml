@@ -1,0 +1,25 @@
+# A B O U T
+# ----------
+#  - Publications & Catalogs -
+#
+# Sample:
+#
+# - title:   the article title, required
+#   author:  the author, optional
+#   medium:  who publishes
+#   country: City and/or country, 2-letter acronym
+#   date:    feb 2016, necessary
+#   year:    2016, required
+#   url:     http://…
+#   LD:      B- 23697-2016
+#   ISBN:     '978-84-617-6320-7'
+
+- title:   'XXX'
+  author:  The author
+  medium:  Catalog
+  country: Spain
+  date:    dec 2018
+  year:    2018
+  LD:      M-33622-2018
+  ISBN:     '878-82-611-9322-1'
+

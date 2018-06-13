@@ -1,0 +1,18 @@
+# B I O
+# -----
+#  - Solo exhibitions -
+#
+# Sample:
+#
+# - title:    'Nom de la expo'
+#   venue:    'Nom del espai'
+#   place:    'Barcelona, ES'
+#   date:     'oct-nov 2015'
+#   year:     2015
+#   url:      'http://www.google.es'
+
+- title:   'El peso de mis vecinas'
+  venue:    Galería Piramidón, centre d'art contemporani
+  place:    Barcelona, Spain
+  date:     22 of may 2018
+  year:     2018

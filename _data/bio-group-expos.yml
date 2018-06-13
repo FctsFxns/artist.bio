@@ -1,0 +1,18 @@
+# B I O
+# -----
+#  - Group exhibitions -
+#
+# Sample:
+#
+# - title:    Nom de la expo
+#   venue:    Nom del espai
+#   place:    Barcelona, ES
+#   date:     oct-nov 2015
+#   url:      http://www.google.es
+#   year:     2015
+
+- title:    Nom de la expo
+  venue:    Nom del espai
+  place:    Barcelona, ES
+  date:     feb 2017
+  year:     2017

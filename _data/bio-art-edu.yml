@@ -1,0 +1,21 @@
+# B I O
+# -----
+#  - Art Education -
+#
+# Sample:
+#
+# - title:    'Nombre del curso'
+#   teacher:  'Teacher name'
+#   venue:    'Nom del espai'
+#   place:    'Barcelona, ES'
+#   date:     '2015', necessary
+#   year:     2015, required
+#   url:      'http://www.google.es'
+
+
+- title:    'The professional artist'
+  teacher:  'J. Morey'
+  venue:    'Hangar'
+  place:    'Barcelona, ES'
+  date:     '2017'
+  year:     2017

@@ -1,0 +1,21 @@
+# B I O
+# -----
+#  - Professional Education -
+#
+# Sample:
+#
+# - institution:  'Nombre de la empresa/org'
+#   description:  'descripción compañia'
+#   rol:          'rol empeñado'
+#   place:        'Barcelona, ES'
+#   date:         '2011-2015'
+#   year:         2015
+#   url:          'http://www.google.es'
+
+- institution:  'The Internet'
+  rol:          'Professional Web Surfer'
+  description:  'http'
+  place:        'world wide'
+  date:         '1995-...'
+  year:         1995
+  url:          'http://www.google.com/'

@@ -1,0 +1,15 @@
+Gemfile.lock
+
+_site/
+.sass-cache/
+.jekyll-metadata
+
+.DS_Store
+*.DS_Store
+*.asset-cache
+*.sass-cache
+/_site/*
+/_assets/bower/*
+/node_modules
+assets/
+.bundle
