@@ -1,9 +1,9 @@
 {
-  "name": "schultzen-site",
+  "name": "artist.bio",
   "version": "0.0.1",
-  "description": "Christina Schultz Jekyll site",
+  "description": "An overcomplicated static website template for an artist bio using jekyll ",
   "author": "Daniel Canet <dcanetma@gmail.com>",
-  "homepage": "http://www.christinaschultz.com/",
+  "homepage": "#",
   "license": "MIT",
   "devDependencies": {
     "grunt": "~0.4.5",

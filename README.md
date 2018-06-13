@@ -1,4 +1,4 @@
-# Christina Schultz
+# artist.bio
 
 An overcomplicated static website template for an artist bio using jekyll
 
