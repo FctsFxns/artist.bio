@@ -1,8 +1,6 @@
 # Site settings
 title:   Lorem Ipsum
 
-
-
 description: > # this means to ignore newlines until "baseurl:"
   The Museum of Modern Art is an art museum located in Midtown Manhattan in 
   New York City, on 53rd Street between Fifth and Sixth Avenues
@@ -33,7 +31,7 @@ instagram_url: 'https://www.instagram.com/artist.bio/'
 # Set the url's of the PDF Links
 mailing_list_url: 'http://newsletter.artist.bio'
 pdf_bio:     'media/pdf/xxx.pdf'
-pdf_dossier: 'media/pdf/yyy.pdf'
+pdf_dossier: 'media/pdf/xxx.pdf'
 
 # The intro text to appear on the Call To Action Block
 cta_text:
