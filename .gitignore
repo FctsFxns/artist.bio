@@ -1,6 +1,7 @@
 Gemfile.lock
 
 _site/
+css/
 .sass-cache/
 .jekyll-metadata
 
