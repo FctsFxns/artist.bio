@@ -1,0 +1,25 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+…
+
+# TEAM
+
+…
+
+# THANKS to
+
+…
+
+# TECHNOLOGY COLOPHON 
+
+    HTML5, CSS3, 
+    Less, Sass,
+    jQuery, Modernizr,
+    "Bootstrap",
+    "jQuery Appear" from github.com/morr/jquery.appear,
+    "Grunt",
+    "Bower",
+    "Glynn",
+    "Jekyll", 
+    Travis Jekyll by Felix Rieseberg

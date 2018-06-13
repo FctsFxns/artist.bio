@@ -1,0 +1,13 @@
+{% if work.featured_image %}
+  <a href="{{ work.url | prepend: site.baseurl }}" class="thumb">
+    <img class="img-responsive " src="{{ work.featured_image | replace: 'media/images', 'media/images/thumbnail' | prepend: site.baseurl }}" alt="{{ work.title }}" title="{{ work.title }}" />
+  </a>
+{% endif %}
+
+<h3><a href="{{ work.url | prepend: site.baseurl }}">{{ work.title }}</a></h3>
+{{ work.intro | markdownify }}
+
+{% if work.home_call %}
+  <p><a class="more" href="{{ work.home_url }}">{{ work.home_call }}</a></p>
+
+{% endif %}

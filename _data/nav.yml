@@ -1,5 +1,5 @@
 main:
-    - { url: '/me', text: 'Me'}
+    - { url: '/museum', text: 'Museum'}
     - { url: '/works', text: 'Works'}
     - { url: '/bio', text: 'Bio'}
     - { url: '/contact', text: 'Contact'}
